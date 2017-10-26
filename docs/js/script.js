@@ -112,7 +112,7 @@ function startCountdown(){
         if(timeremaining <= 0){// game over
             stopCountdown();
             show("gameOver");
-         document.getElementById("gameOver").innerHTML = "<p>Game over!</p><p>Sua pontuação foi de: " + score + ".</p>";   
+         document.getElementById("gameOver").innerHTML = "<p>Game over!</p><p>Pontuação: " + score + ".</p>";   
             hide("timeremaining");
             hide("correct");
             hide("wrong");
